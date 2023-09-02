@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="App">
+        <h2>Generate a</h2>
+        <h1>RANDOM PASSWORD</h1>
+        <div class="inputBar">
+            <input type="text" id="inputBar"  placeholder="LENGTH OF PASSWORD?" autocomplete="off">
+            <span id="first">OK</span>  
+        </div>
+        <span class="error">
+          ERROR : Length Should be Greater than 4 !
+        </span>
+        <span class="error2">
+            ERROR : Please Enter A Number!
+          </span>
+ <div class="sometihg">
+    <input type="text"  id="searchBar" placeholder="PASSWORD" disabled>
+    <img src="copy.png" id="copyButton">
+    <p id="final">Password Copied !</p>
+
+ </div>
+      
+        <button id="generatePwd">Generate Password</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
